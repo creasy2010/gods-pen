@@ -2,7 +2,7 @@ import * as monaco from 'monaco-editor'
 import {
   SINGLETON
 } from './monaco-theme-registry'
-import onigasmPromise from './loadwasm'
+// import onigasmPromise from './loadwasm'
 import {
   INITIAL,
   Registry,
@@ -53,7 +53,7 @@ async function init(theme) {
   currentTheme = theme
   var registry = new Registry({
     theme: SINGLETON.getTheme(theme),
-    getOnigLib: () => onigasmPromise,
+    // getOnigLib: () => onigasmPromise,
     loadGrammar: function (scopeName) {
       var path = grammarPaths[scopeName]
       if (path) {
