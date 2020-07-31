@@ -11,6 +11,6 @@ module.exports = {
   EDITOR_PATH: 'http://127.0.0.1:8565/', // 编辑器访问地址
   VIEW_PATH: 'http://127.0.0.1:8566/', // 页面客户端访问地址
   ADMIN_PATH: 'http://127.0.0.1:8567/', // 管理后台访问地址
-  // API_PATH: 'http://127.0.0.1:7051/api', // api 服务端访问地址
-  API_PATH: 'https://godspen.ymm56.com/api/', // 启动demo模式，使用官方 api 服务
+  API_PATH: 'http://127.0.0.1:7051/api', // api 服务端访问地址
+  // API_PATH: 'https://godspen.ymm56.com/api/', // 启动demo模式，使用官方 api 服务
 }
